@@ -23,4 +23,3 @@ def get_all_products():
     products = cursor.fetchall()
     connection.commit()
     connection.close()
-    return products
